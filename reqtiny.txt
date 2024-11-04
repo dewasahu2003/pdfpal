@@ -1,12 +1,16 @@
-# requirements-windows.txt
-# CPU-only versions
-torch
+# requirements.txt
+langchain==0.1.0
+unstructured[pdf]
+pip install opencv-python
+llama-cpp-python==0.2.23
+numpy>=1.24.4
+qdrant-client==1.7.0
 sentence-transformers==2.2.2
-langchain
-numpy
-qdrant-client
+torch>=2.1.0
+transformers>=4.36.0
 protobuf>=4.25.1
-pydantic
+pydantic>=2.5.2
 typing-extensions>=4.8.0
 tqdm>=4.66.1
-ctransformers>=0.2.27
+requests>=2.31.0
+accelerate>=0.25.0

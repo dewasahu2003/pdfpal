@@ -1,8 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 venv/
+*.gguf
 *.py[cod]
 *$py.class
+qdrant_db/
+qdrant_data/
+knowledge_base/
+http:/
 env/
 ENV/
 env.bak/
