@@ -1,5 +1,3 @@
-# app.py
-
 import streamlit as st
 from streamlit import session_state
 import time

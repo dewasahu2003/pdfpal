@@ -1,11 +1,8 @@
-    # vectors.py
 
 import os
-import base64
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
-#from langchain_community.vectorstores import Qdrant
 from langchain_qdrant import Qdrant
 
 class EmbeddingsManager:

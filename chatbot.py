@@ -21,6 +21,7 @@ class ChatbotManager:
         llm_temperature: float = 0.7,
         qdrant_url: str = "http://localhost:6333",
         collection_name: str = "vector_db",
+        is_rag:bool=False
     ):
         """
         Initializes the ChatbotManager with embedding models, LLM, and vector store.
