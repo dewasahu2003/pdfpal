@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 venv/
+virenv/
 *.gguf
 *.py[cod]
 *$py.class
