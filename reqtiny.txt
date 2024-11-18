@@ -1,5 +1,7 @@
 # requirements.txt
 langchain==0.1.0
+langchain_community
+ctransformers
 streamlit
 unstructured[pdf]
 opencv-python
