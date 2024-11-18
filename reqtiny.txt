@@ -1,11 +1,12 @@
 # requirements.txt
 langchain==0.1.0
+streamlit
 unstructured[pdf]
 opencv-python
 #llama-cpp-python==0.2.23
 numpy>=1.24.4
 qdrant-client==1.7.0
-sentence-transformers==2.2.2
+sentence-transformers
 torch>=2.1.0
 transformers>=4.36.0
 protobuf>=4.25.1
