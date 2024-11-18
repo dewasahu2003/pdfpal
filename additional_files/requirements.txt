@@ -7,5 +7,6 @@ langchain-huggingface
 langchain-qdrant
 langchain-ollama
 unstructured[pdf]
+llama-cpp-python==0.2.23
 onnx==1.16.1
 qdrant-client
